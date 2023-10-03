@@ -1,0 +1,123 @@
+.navbar{
+    height: 80px;
+    top: 0;
+    width: 100%;
+    background-color: #f5f4f4;
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .item{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            justify-content: space-between;
+            
+            
+            
+
+            img {
+
+                width: 62.56px;
+                height: 60.02px; 
+              
+              }
+
+        }
+        
+
+        .left{  
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .center{
+            font-size: 30px;
+            letter-spacing: 2px;
+             
+        }
+
+
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 25px
+
+            
+        }
+
+        .icons{
+            display: flex;
+            gap: 15px;
+            color: #777;
+            cursor: pointer;
+
+
+            
+            
+        }
+        .carIcon{
+            position: relative;
+
+            
+        }
+        span{
+            font-size: 12px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #2879fe;
+            color:white;
+            position: absolute;
+            right: -5px;
+            top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+    
+    }
+
+   
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar, .wrapper, .left, .right{
+        width: 100%;
+        display: flex;;
+
+    } 
+    
+    
+}
+
+@media screen and (max-width: 700px) { 
+    navbar, .wrapper, .left, .right{
+        width: 100%;
+        display: flex;;
+
+    } 
+}
+
+@media screen and (max-width: 550px) { 
+    .navbar{
+        padding: 2rem ;
+    }
+    .wrapper{
+        display: none;
+    }
+    .left
+        {
+        top: 20px;
+    }
+    .right {
+        display: block;
+   }
+}
